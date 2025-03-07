@@ -64,7 +64,7 @@ Ensure your CSV file (e.g., `toll_manufacture.csv`) has the following columns:
 ### Run the Script
 
 ```bash
-python fetch_company_info.py
+python src/process_companies.py
 ```
 
 The script will process the CSV and create/update `final_chemexpo_data.json` with the output.
